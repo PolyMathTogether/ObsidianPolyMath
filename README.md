@@ -4,4 +4,4 @@
 ### Step 1 Download Obsidian
 Simply navigate to [Obsidian download page](https://obsidian.md/download) and install the version of respective operating system.
 ### Step 2 Use Git Integration for Obsidian
-Once you haveo opened Obsidian make a vault, then in the vault open your settings then 
+Once you have opened Obsidian make a vault, then in the vault open your settings using Control+,
