@@ -1,1 +1,1 @@
-A simple closed curve is some curve that has a
+A simple closed curve is some curve that has a clear starting and ending point, and does 
