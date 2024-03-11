@@ -1,4 +1,4 @@
-Definition (Residue). Let $f: U \to \mathbb C$ be holomorphic, and let $z_0 \in \mathbb C$. We define $$\operatorname{Res}(f, z_0) = \frac{1}{2\pi i} \int_\gamma f \, dz$$ where $\gamma$ is a positively oriented simple closed curve enclosing $z_0$.
+Definition (Residue). Let $f: U \to \mathbb C$ be holomorphic, and let $z_0 \in \mathbb C$. We define $$\text{Res}(f, z_0) = \frac{1}{2\pi i} \int_\gamma f \, dz$$ where $\gamma$ is a positively oriented simple closed curve enclosing $z_0$.
 
 # Residue theorem
 TODO
