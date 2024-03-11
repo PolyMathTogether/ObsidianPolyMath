@@ -1,1 +1,1 @@
-hat theeThe LSAT is a test that measures logical thinking, reading skills, 
+The LSAT is a test that measures logical thinking, reading skills, 
