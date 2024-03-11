@@ -1,2 +1,2 @@
-# ObsidianPolyMath
-An obsidian vault for polymaths
+# Welcome to Greatness
+### Together we will become polymathic
