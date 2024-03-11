@@ -1,0 +1,1 @@
+A simple closed curve is some curve that has a
