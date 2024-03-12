@@ -10,8 +10,12 @@ Once you have opened Obsidian make a vault, then in the vault open your settings
 Download the Git plugin
 ### Step 3 Github Token
 Open your Github Token menu [here](https://github.com/settings/tokens), then generate a token with the permissions to edit repos in organizations.
-#### Step 2.3 Configure Git Plugin
-Open console using Control+P, and then type clone, click the Git clone from existing remote repo, then paste below as the address.
+#### Step 3.1 Configure Git Plugin
+Open console using Control+P, and then type clone, click the Git clone from existing remote repo, then paste below as the address. 
 ```
 https://<your token>@github.com/PolyMathTogether/ObsidianPolyMath.git
 ```
+As for the directory just make it whatever you want the folder to be called. 
+
+### That should be it! if you have any problems just contact me ( Makenna ) lol
+
