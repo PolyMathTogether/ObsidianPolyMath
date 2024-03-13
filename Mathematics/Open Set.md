@@ -2,4 +2,4 @@
 - $(a,b)$ this is *open interval*
 - _Open set_ is generalization of an _open interval_ in real line. 
 
-![[Pasted image 20240313210000.png]]
+![[Polymath Repo/_media/open_set.png]]
