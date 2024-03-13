@@ -1,1 +1,3 @@
-[[Singularity]]
+A point $c$ is called essential [[Singularity]] if it is neither a [[Removable Singularity]] nor [[Isolated Singularity]].
+
+For example: $e^\frac{1}{z}$, $\sin\left( \frac{1}{z} \right)$, ...
