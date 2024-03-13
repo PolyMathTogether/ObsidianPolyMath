@@ -13,6 +13,6 @@ The negative powers of $z-c$:
 $$\sum_{n = 1}^{\infty} \frac{b_{n}}{(z-c)^n} = \frac{b_{1}}{z-c} + \frac{b_{2}}{(z-c)^2} + \cdots$$
 is called **_Principle Part_** of $f$ at $c$. The other sum is called _**Analytic Part**_.
 
-If there exists a number $k \in \mathcal{N}^+$ such that
-$$b_{k} \neq 0 \text{ and } b_{n} = 0 \text{ for every } n > k$$
-then $c$ is called a [[Pole]] of order $k$ a.k.a the isolated singularity of $f$.
+1. If there exists a number $k \in \mathcal{N}^+$ such that $b_{k} \neq 0 \text{ and } b_{n} = 0 \text{ for every } n > k$. Then $c$ is said to be a [[Pole]] of order $k$ a.k.a the [[Isolated Singularity]] of $f$.
+2. If $f(z) = \frac{g(z)}{z-c}$ with $g(c) = 0$ and every $b_n = 0$, $c$ is called [[Removable Singularity]] of $f$.
+3. If there is infinite $b_n$ in principle part are nonzero, then c is known as [[Essential Singularity]] of $f$.

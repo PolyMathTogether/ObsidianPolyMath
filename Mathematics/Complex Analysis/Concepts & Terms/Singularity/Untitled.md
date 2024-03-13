@@ -1,1 +1,0 @@
-Singularities are abnormal points 
