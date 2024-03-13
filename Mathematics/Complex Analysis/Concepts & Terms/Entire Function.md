@@ -1,0 +1,3 @@
+A $f: \mathcal{C} \to \mathcal{C}$ is an entire function if it is [[Holomorphic]] on the whole complex plane. 
+
+For example: $z^2$, $e^z$, ...

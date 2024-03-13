@@ -11,3 +11,4 @@ An [[Analytic]] function $f: C \to C$ has a _singularity_ $c$ if it is not _anal
 1. [[Removable Singularity]]
 2. [[Isolated Singularity]]/[[Pole]]
 3. [[Essential Singularity]]
+4. [[Non-isolated Singularity]]
