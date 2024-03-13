@@ -5,7 +5,7 @@ $$\frac{\partial v}{\partial x} = - \frac{\partial u}{\partial y}$$
 where $f(z) = u(x,y) + iv(x,y)$ with $u: \mathcal{R}^2 \to \mathcal{R}$ and $v: \mathcal{R}^2 \to \mathcal{R}$.
 
 ---
-### <u>Proof</u>:
+## <u>Proof</u>:
 If $f(z)$ is differentiable at $z_0$ then
 $$
 f'(z_0) = \lim_{z \to z_0} \frac{f(z) - f(z_0)}{z-z_0}
