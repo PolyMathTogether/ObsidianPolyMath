@@ -4,6 +4,7 @@ Then the _lemma_ states that:
 $$\left|\oint_{C_{R}}f(z)dz_{0}\right| \leq \frac{\pi}{a}M_{R} \hspace{1em} \text{where} \hspace{1em} M_{R} := \max_{\theta \in [0, \pi]} \left|g(Re^{i\theta})\right| $$
 
 For the case $a=0$ see [[Estimation Lemma]].
+![[semicicular.png]]
 ## Aplications
 ---
 By _Jordan's Lemma_
