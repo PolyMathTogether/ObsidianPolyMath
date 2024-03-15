@@ -7,8 +7,4 @@ tags:
   - "#TableOfContent"
 index: "true"
 ---
-[[Mathematics]]
-[[CS]]
-[[Spanish]]
-[[Law]]
-[[History]]
+[[Compact Set]]
