@@ -9,7 +9,7 @@ $$T \subset \bigcup_{\alpha \in A} U_{\alpha} $$
 ---
 - $T = (0,1)$
 - $A = \{3,4,5, \, \cdots \}$
-- $U_n = \left( \frac{1}{n}, \frac{n-1}{n} \right)$[^1]
+- $U_n = \left( \frac{1}{n}, \frac{n-1}{n} \right)$
 $$\begin{split}
 T &\subset \bigcup_{n \in A} U_{n} \\
 \leftrightarrow T &\subset \left( \frac{1}{3}, \frac{2}{3} \right) \cup \left( \frac{1}{4}, \frac{3}{4} \right) \cup \left( \frac{1}{5}, \frac{4}{5} \right) \cup \, \cdots
@@ -25,7 +25,7 @@ $$T \subset \bigcup_{\beta \in B} U_{\beta} $$
 
 ## Finite Subcover
 ---
-- If $B$ is _finite_[^2] then $\{U_{\beta}: \beta \in B\}$ is _finite subcover_ of $\{ U_{\alpha}: \alpha \in A\}$
+- If $B$ is _finite_[^1] then $\{U_{\beta}: \beta \in B\}$ is _finite subcover_ of $\{ U_{\alpha}: \alpha \in A\}$
 
 > Proof: the open cover of $(0,1)$ from above example does not have a finite subcover.
 #### <u>Solution</u>
@@ -43,7 +43,4 @@ As a result, $T \not\subset V_{a,b}$ then $\{U_{n}: n \in B\}$ is not subcover o
 ---
 We say a set $K \subset \mathcal{R}$ is _compact_ if every _open cover_ of $K$ has a _finite sub cover_.
 
-[^1]: When $n \to \infty$, $U_{n} \to (0, 1)$ 
-[^2]: Finite set has a finite number of members. i.e. $\{1,2,3\}$
-
-test
+[^1]: Finite set has a finite number of members. i.e. $\{1,2,3\}$
