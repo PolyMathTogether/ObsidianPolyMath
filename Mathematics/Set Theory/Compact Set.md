@@ -10,10 +10,11 @@ $$T \subset \bigcup_{\alpha \in A} U_{\alpha} $$
 - $T = (0,1)$
 - $A = \{3,4,5, \, \cdots \}$
 - $U_n = \left( \frac{1}{n}, \frac{n-1}{n} \right)$
-$$\begin{split}
-T &\subset \bigcup_{n \in A} U_{n} \\
-\leftrightarrow T &\subset \left( \frac{1}{3}, \frac{2}{3} \right) \cup \left( \frac{1}{4}, \frac{3}{4} \right) \cup \left( \frac{1}{5}, \frac{4}{5} \right) \cup \, \cdots
-\end{split}$$
+  
+$$
+T \subset \bigcup_{n \in A} U_{n}
+$$
+$$\leftrightarrow T \subset \left( \frac{1}{3}, \frac{2}{3} \right) \cup \left( \frac{1}{4}, \frac{3}{4} \right) \cup \left( \frac{1}{5}, \frac{4}{5} \right) \cup \, \cdots$$
 - Then $\{U_{n}: n \in A\}$ is _open cover_ of $(0,1)$.
 
 # Subcover
