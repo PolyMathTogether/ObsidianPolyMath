@@ -35,7 +35,6 @@ $$T \subset \bigcup_{\beta \in B} U_{\beta} $$
 
 > [!success] Proof
 > $B = \{a, a + 1, \cdots, b\} \subset A$
-> 
 $\to V_{a,b} = \bigcup\limits_{n\in B} U_{n} \subset \bigcup_{n \in A} U_{n} = (0,1)$
 > As a result, $T \not\subset V_{a,b}$ then $\{U_{n}: n \in B\}$ is not subcover of $\{ U_{\alpha}: \alpha \in A\}$
 
