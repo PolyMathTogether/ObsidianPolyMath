@@ -12,7 +12,7 @@ If complex function $f(z)$ with [[Singularity]] $c$ is [[Holomorphic]] on $\math
 ## Simple pole
 If $c$ is a simple [[Pole]] (pole with order of $1$) of $f(z) = \frac{g(z)}{h(z)}$ then:
 $$\begin{split}
-Res(f, c) &= \lim_{ z \to c } (z-c)f(z) \\
+Res(f, c) &= \lim_{ z \to c } \,(z-c) \, f(z) \\
 &=\frac{g(z)}{h'(z)}
 \end{split}$$
 ## Higher order pole
