@@ -5,5 +5,6 @@ exists. And if $f(z)$ is complex differentiable at every point $z \in U \subset 
 >Holomorphic functions are [[Analytic]] and vice versa
 
 ## Definition
-$f:u\to\mathbb{C}$ Complex valued function
-$u\subseteq\mathbb{C}$
+$u\subseteq\mathbb{C}$ open.    $f:u\to\mathbb{C}$ is homomorphic if $f$ is complex differentiable at every $z_0\in{u}$.
+
+If $u=\mathbb{C}$, the holomorphic function is called entire. 
