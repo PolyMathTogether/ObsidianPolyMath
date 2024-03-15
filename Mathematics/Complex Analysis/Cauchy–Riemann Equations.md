@@ -10,6 +10,8 @@ If $f(z)$ is differentiable at $z_0$ then
 $$
 f'(z_0) = \lim_{z \to z_0} \frac{f(z) - f(z_0)}{z-z_0}
 $$
+
+^33211c
 must exist. By replacing $f(z) = u(x,y) + iv(x,y)$ we have:
 
 $$\frac{f(z) - f(z_0)}{z-z_0}$$
