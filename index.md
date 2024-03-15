@@ -7,4 +7,4 @@ tags:
   - "#TableOfContent"
 index: "true"
 ---
-[[Compact Set]]
+Nothing here

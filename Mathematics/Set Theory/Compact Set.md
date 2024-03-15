@@ -14,7 +14,9 @@ $$T \subset \bigcup_{\alpha \in A} U_{\alpha} $$
 $$
 T \subset \bigcup_{n \in A} U_{n}
 $$
-$$\leftrightarrow T \subset \left( \frac{1}{3}, \frac{2}{3} \right) \cup \left( \frac{1}{4}, \frac{3}{4} \right) \cup \left( \frac{1}{5}, \frac{4}{5} \right) \cup \, \cdots$$
+$$
+\leftrightarrow T \subset \left( \frac{1}{3}, \frac{2}{3} \right) \cup \left( \frac{1}{4}, \frac{3}{4} \right) \cup \left( \frac{1}{5}, \frac{4}{5} \right) \cup \, \cdots
+$$
 - Then $\{U_{n}: n \in A\}$ is _open cover_ of $(0,1)$.
 
 # Subcover
@@ -30,15 +32,12 @@ $$T \subset \bigcup_{\beta \in B} U_{\beta} $$
 
 > Proof: the open cover of $(0,1)$ from above example does not have a finite subcover.
 #### <u>Solution</u>
-Suppose $B = \{a, a + 1, \cdots, b\} \subset A$
-$$\begin{split}
-V_{a,b} &= \bigcup\limits_{n\in B} U_{n} \\
-&= \left( \frac{1}{a}, \frac{b-1}{b} \right) \\
-\leftrightarrow V_{a,b} &\subset \bigcup_{n \in A} U_{n} \\
-&= (0,1) \\
-&= T
-\end{split}$$
-As a result, $T \not\subset V_{a,b}$ then $\{U_{n}: n \in B\}$ is not subcover of $\{ U_{\alpha}: \alpha \in A\}$
+
+> [!success] Proof
+> $B = \{a, a + 1, \cdots, b\} \subset A$
+> 
+$\to V_{a,b} = \bigcup\limits_{n\in B} U_{n} \subset \bigcup_{n \in A} U_{n} = (0,1)$
+> As a result, $T \not\subset V_{a,b}$ then $\{U_{n}: n \in B\}$ is not subcover of $\{ U_{\alpha}: \alpha \in A\}$
 
 # Compact Set
 ---
