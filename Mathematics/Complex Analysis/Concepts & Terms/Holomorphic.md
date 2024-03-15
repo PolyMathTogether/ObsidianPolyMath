@@ -6,4 +6,4 @@ exists. And if $f(z)$ is complex differentiable at every point $z \in U \subset 
 
 ## Definition
 $f:u\to\mathbb{C}$ Complex valued function
-$u\subseteq$
+$u\subseteq\mathbb{C}$
