@@ -21,11 +21,11 @@ $$f'(z) = \frac{\partial u(x,y) } { \partial x} + i \frac{\partial v(x,y) } { \p
 case 2: $z-z_0 \in \mathcal{I}$
 $$f'(z) = -i \frac{\partial u(x,y) } { \partial y} + \frac{\partial v(x,y) } {\partial y} \hspace{3em}(2)$$
 From $(1)$ and $(2)$:
-$$\begin{split}
+$$\begin{align}
 \frac{\partial u(x,y) } { \partial x} + i \frac{\partial v(x,y) } { \partial x} &= -i \frac{\partial u(x,y) } { \partial y} + \frac{\partial v(x,y) } {\partial y} \hspace{3em} (*) \\ 
 \leftrightarrow \frac{1}{2}\left( \frac{\partial}{\partial x} + i \frac{\partial}{\partial y} \right) &= 0 \\
 \leftrightarrow \frac{\partial}{\partial \overline{z}} &= 0
-\end{split}
+\end{align}
 $$
 If $f'(z)$ exists then equation $(*)$ must be true so:
 $$\begin{split}
