@@ -45,3 +45,5 @@ We say a set $K \subset \mathcal{R}$ is _compact_ if every _open cover_ of $K
 
 [^1]: When $n \to \infty$, $U_{n} \to (0, 1)$ 
 [^2]: Finite set has a finite number of members. i.e. $\{1,2,3\}$
+
+test
