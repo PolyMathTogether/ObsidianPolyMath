@@ -72,7 +72,6 @@ opt-level = 3
 ## Optional:
 ----
 ### Feature:
----
 - Enable bevy's _dynamic linking [[Feature]]_: 
 	- Run `cargo run --features bevy/dynamic_linking` each time.
 	- If you don't want to do it each run then add the following feature to your _toml file_:
@@ -82,12 +81,15 @@ bevy = { version = "0.13.0", features = ["dynamic_linking"] }
 ```
 
 ### Compiler:
----
 - _Nightly Rust Compiler_: Not stable but this gives lightly performance than the _stable rust_.
 	- Create _"rust-toolchain.toml"_ file
+	- Then put following code:
+```toml
+[toolchain]
+channel = "nightly"
+```
 
 ### Linker:
----
 - Choose one of following linkers:
 - Use _LLD linker_: 
 	- Windows: 
@@ -100,11 +102,10 @@ rustup component add llvm-tools-preview
 	- **Ubuntu**: `sudo apt-get install mold clang`
 
 ### Enable fast compiles:
----
 - Install both LLD linker and nightly rust compiler.
+- Put `.cargo/confi`
 - Copy following code in the url to `config.toml` file: [link](https://github.com/bevyengine/bevy/blob/main/.cargo/config_fast_builds.toml)
 
 ### Rebuild:
----
 - Build your project again to see the significant change.
 - The first time may be slow but after that it will be fast.
