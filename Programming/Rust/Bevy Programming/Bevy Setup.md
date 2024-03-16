@@ -103,7 +103,7 @@ rustup component add llvm-tools-preview
 
 ### Enable fast compiles:
 - Install both LLD linker and nightly rust compiler.
-- Put `.cargo/confi`
+- Put `.cargo/config.toml` next to `src` folder.
 - Copy following code in the url to `config.toml` file: [link](https://github.com/bevyengine/bevy/blob/main/.cargo/config_fast_builds.toml)
 
 ### Rebuild:
