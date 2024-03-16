@@ -6,3 +6,12 @@ aliases:
 index: "true"
 ---
 # Welcome to Polymath!
+- This is homepage of polymath
+---
+
+> [!info] Contents
+> - [[Mathematics]]
+> - [[History]]
+> - [[CS]]
+> - [[Law]]
+> - [[Spanish]]
