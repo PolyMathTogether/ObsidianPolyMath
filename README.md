@@ -11,7 +11,7 @@ Download the Git plugin
 ### Step 3 Github Token
 Open your Github Token menu [here](https://github.com/settings/tokens), then generate a token with the permissions to edit repos in organizations.
 #### Step 3.1 Configure Git Plugin
-Open console using Control+P, and then type clone, click the Git clone from existing remote repo, then paste below as the address. 
+Open console using Control+P, and then type clone, click the Git clone from existing remote repo, then paste below as the address with your token. 
 ```
 https://<your token>@github.com/PolyMathTogether/ObsidianPolyMath.git
 ```
