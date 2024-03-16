@@ -10,11 +10,11 @@ If $f(z)$ is differentiable at $z_0$ then
 $$
 f'(z_0) = \lim_{z \to z_0} \frac{f(z) - f(z_0)}{z-z_0}
 $$
-
-^33211c
 must exist. By replacing $f(z) = u(x,y) + iv(x,y)$ we have:
 
-$$\frac{f(z) - f(z_0)}{z-z_0}$$
+$$
+\frac{f(z) - f(z_0)}{z-z_0}
+$$
 $$= \frac{u(x, y) - u(x_0, y_0)}{z-z_{0}} + i \frac{v(x, y) - v(x_0, y_0)}{z-z_{0}}$$
 case 1: $z-z_0 \in \mathcal{R}$
 $$f'(z) = \frac{\partial u(x,y) } { \partial x} + i \frac{\partial v(x,y) } { \partial x} \hspace{3em}(1)$$
