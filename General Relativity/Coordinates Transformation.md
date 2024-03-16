@@ -5,12 +5,12 @@ Start by observing this beautifully depicted figure of an elevator moving along 
 
 Since the ball moves alongside the elevator, its position in the lab frame of reference changes.
 Given the position of the ball is $z$ and $z'$ in the lab and elevator's frame of reference respectively, these following equations relate the positions and times in the two frames:
-```math
+$$
 \begin{align}
 z &= z' + vt\\
 t &= t'
 \end{align}
-```
+$$
 The trajectory of this ball can be loosely plotted as the following:
 
 ![[Fig 01.02 z vs z'.excalidraw|25%|center]]
