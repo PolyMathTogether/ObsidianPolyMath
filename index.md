@@ -10,8 +10,8 @@ index: "true"
 ---
 
 > [!info] Contents
-> - [[Mathematics]]
-> - [[History]]
-> - [[CS]]
-> - [[Law]]
-> - [[Spanish]]
+> - [[Mathematics/]]
+> - [[History/]]
+> - [[CS/]]
+> - [[Law/]]
+> - [[Spanish/]]
