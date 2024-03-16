@@ -28,4 +28,10 @@ fn main()
 - Initializes new `App` by `App::new()` then `.run()` it.
 > [!tip] You can consider App as the Bevy Program
 
+What is App:
+---
+- An [App](https://docs.rs/bevy/latest/bevy/app/struct.App.html): in the docs, there are three fields:
+	- [[World]]: stores all game's datas.
+	- [[Schedule]]: a collection of [[System]]s.
+	- [[Runner]]: bases on schedules, the runner controls the broad execution strategy.
 
