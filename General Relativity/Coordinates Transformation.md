@@ -6,10 +6,10 @@ Start by observing this beautifully depicted figure of an elevator moving along 
 Since the ball moves alongside the elevator, its position in the lab frame of reference changes.
 Given the position of the ball is $z$ and $z'$ in the lab and elevator's frame of reference respectively, these following equations relate the positions and times in the two frames:
 $$
-\begin{aligned}
+\begin{align}
 z &= z' + vt\\
 t &= t'
-\end{aligned}
+\end{align}
 $$
 The trajectory of this ball can be loosely plotted as the following:
 
@@ -21,10 +21,10 @@ Now, let's analyze another situation: the elevator is under a constant accelerat
 
 Similar to last time, these equations show the trajectory of the ball. Again, we are neglecting the effects of Special Relativity for now.
 $$
-\begin{aligned}
+\begin{align}
 z &= z' + \frac{1}{2}gt^2\\
 t &= t'
-\end{aligned}
+\end{align}
 $$
 By plotting the trajectory loosely, it is now apparent that the transformations between these coordinates are not linear.
 

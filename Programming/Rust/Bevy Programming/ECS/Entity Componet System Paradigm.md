@@ -99,7 +99,7 @@ fn main()
 }
 ```
 
-- To display the data in the world we create a system to query it:
+- To display the data in the [[World]] we create a system to query it:
 ```rust
 fn show(query: Query<&Name, With(Person)>) {
 	for name in &query {
@@ -123,13 +123,9 @@ fn main()
 - If we want to change the _Name_ of a _Person_, use mut [[Query]]:
 ```rust
 fn change_name(mut query: Query<&mut Name, With<Person>>) {
-
     for mut name in &mut query {
-
         if name.0 == "Minh" {
-
             name.0 = "MINH".to_string();
-
         }
     }
 }
