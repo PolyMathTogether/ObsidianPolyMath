@@ -8,4 +8,5 @@ The starting point. We begin by observing the transformation of trajectories bet
 
 ### The Equivalence Principle
 ---
-The principle of equivalence
+The principle of equivalence. How uniform gravitational field is indistinguishable from an accelerating frame of reference.
+[[The Equivalence Principle]]
