@@ -1,15 +1,15 @@
 Let's begin by thinking of transformations between inertial frames of reference. Special Relativity shall be ignored-- for now.
 Start by observing this beautifully depicted figure of an elevator moving along the $z$ axis at the constant velocity of magnitude $v$. The ball is attached to the elevator, meaning it is stationary in the elevator's frame of reference.
 
-![[Fig 01.01 Elevator.excalidraw|25%|center]]
+![[Fig 01.01 Elevator.excalidraw.svg|25%|center]]
 
 Since the ball moves alongside the elevator, its position in the lab frame of reference changes.
 Given the position of the ball is $z$ and $z'$ in the lab and elevator's frame of reference respectively, these following equations relate the positions and times in the two frames:
 $$
-\begin{align}
+\begin{align*}
 z &= z' + vt\\
 t &= t'
-\end{align}
+\end{align*}
 $$
 The trajectory of this ball can be loosely plotted as the following:
 
