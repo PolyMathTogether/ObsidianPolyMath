@@ -34,6 +34,7 @@ fn main()
 }
 ```
 - Initializes new `App` by `App::new()` then `.run()` it.
+
 > [!tip] You can consider App as the Bevy Program
 
 What is App:
