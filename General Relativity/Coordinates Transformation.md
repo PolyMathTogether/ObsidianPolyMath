@@ -34,6 +34,6 @@ From the equations, the motion of the ball is parabolic in the lab frame of refe
 These transformations show that a linear motion in one frame of reference will be linear in another frame if both frames of reference are inertial. In other words, an object in constant motion will be in constant motion in all inertial frames of reference.
 On the other hand, if one frame is undergoing an acceleration, that frame may perceive the trajectory as being curved; an object moving in a straight line can appear to be deviating from the straight path, or even accelerating.
 These observations are indeed obvious, after all just Galilean Relativity is sufficient to come to these conclusions. However, what one may overlook is the fact that light is also affected by this effect. 
-![[Fig 01.05 Curved Trajectory|50%|center]]
+![[Fig 01.05 Curved Trajectory.excalidraw|50%|center]]
 
 [^1]: Please ignore the parabola's appearance not being very parabolic. I tried my best.
