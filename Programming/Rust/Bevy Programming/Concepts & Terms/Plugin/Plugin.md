@@ -1,3 +1,10 @@
+---
+up: 
+same: ""
+down: ""
+next: '"[[]]"'
+prev: '"[[Entity Component System Paradigm]]"'
+---
 # Bevy plugins:
 ---
 - All bevy [[Feature]]s can be consisder as _**plugins**_.

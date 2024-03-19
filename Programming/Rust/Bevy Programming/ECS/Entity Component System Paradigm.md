@@ -1,3 +1,11 @@
+---
+up: 
+same: ""
+down: ""
+next: "[[Plugin]]"
+prev: '"[[Basic App]]"'
+---
+
 # Definition:
 ---
 - _ECS_ for shorten is a paradigm that breaks your program into _core components_:
