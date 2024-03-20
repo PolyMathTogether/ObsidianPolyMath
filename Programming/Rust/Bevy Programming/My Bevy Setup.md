@@ -68,6 +68,8 @@ features = [
     # Bevy functionality:
     "bevy_winit",	
     "bevy_asset",
+    "bevy_sprite",
+    "bevy_core_pipeline",
     
     # Bevy formats:
     "png",
