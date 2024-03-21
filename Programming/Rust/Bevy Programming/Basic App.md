@@ -1,3 +1,11 @@
+---
+up: 
+same: ""
+down: ""
+next: '"[[Entity Component System Paradigm]]"'
+prev: '"[[Bevy Setup]]"'
+---
+
 # Bring bevy to the app:
 ---
 - After finishing the [[Bevy Setup]] part. You can start coding by adding `use bevy::predule::*` to the `main.rs` source file:
@@ -26,6 +34,7 @@ fn main()
 }
 ```
 - Initializes new `App` by `App::new()` then `.run()` it.
+
 > [!tip] You can consider App as the Bevy Program
 
 What is App:

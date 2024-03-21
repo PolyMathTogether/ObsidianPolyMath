@@ -1,7 +1,15 @@
+---
+up: 
+same: ""
+down: ""
+next: '"[[Plugin]]"'
+prev: '"[[Basic App]]"'
+---
+
 # Definition:
 ---
 - _ECS_ for shorten is a paradigm that breaks your program into _core components_:
-	- [[Enitiy]]: an unique _ID_.
+	- [[Entity]]: an unique _ID_.
 	- [[Component]]: it is the _data field_ of the entity.
 	- [[System]]: the _logic_ of the game.
 
@@ -30,7 +38,7 @@ fn print_position_system(query: Query<&Position>)
 ```
 - [[Query]]
 
-- [[Enitiy]]: A type contains an unique number.
+- [[Entity]]: A type contains an unique number.
 ```rust
 struct Entity(u64);
 ```
@@ -99,7 +107,7 @@ fn main()
 }
 ```
 
-- To display the data in the world we create a system to query it:
+- To display the data in the [[World]] we create a system to query it:
 ```rust
 fn show(query: Query<&Name, With(Person)>) {
 	for name in &query {
@@ -123,13 +131,9 @@ fn main()
 - If we want to change the _Name_ of a _Person_, use mut [[Query]]:
 ```rust
 fn change_name(mut query: Query<&mut Name, With<Person>>) {
-
     for mut name in &mut query {
-
         if name.0 == "Minh" {
-
             name.0 = "MINH".to_string();
-
         }
     }
 }
@@ -146,3 +150,12 @@ fn main()
 }
 ```
 - `chain()` will order the actions. First show the name then change the name then show it again.
+
+# ECS vs OOP
+---
+- In OOP, you have **classes** with data and functionality. Its objects will have **the same data type** but different values.
+- In ECS, the data is **combination of components**. That means an entity can have **any kinds** of that combination. The entity itself is already used to identify that data. Thanks to this, u can have an Entity with component **Transform** or **Color**.
+- A **set of component** of an entity is called entity's **Archetype**.
+	- Entities with the same **Archetype** will be stored in *the same contiguous arrays*.
+	- Add/Remove component types mean that you are changing the archetype.
+
