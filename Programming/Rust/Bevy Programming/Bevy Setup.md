@@ -1,3 +1,11 @@
+---
+up: 
+same: ""
+down: ""
+next: '"[[Basic App]]"'
+prev: '"[[Rust Setup]]"'
+---
+
 # Installing Rust
 ---
 - More details in the following note [[Rust Setup]].

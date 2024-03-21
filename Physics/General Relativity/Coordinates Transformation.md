@@ -6,10 +6,10 @@ Start by observing this beautifully depicted figure of an elevator moving along 
 Since the ball moves alongside the elevator, its position in the lab frame of reference changes.
 Given the position of the ball is $z$ and $z'$ in the lab and elevator's frame of reference respectively, these following equations relate the positions and times in the two frames:
 $$
-\begin{aligned}
+\begin{align*}
 z &= z' + vt\\
 t &= t'
-\end{aligned}
+\end{align*}
 $$
 The trajectory of this ball can be loosely plotted as the following:
 
@@ -21,10 +21,10 @@ Now, let's analyze another situation: the elevator is under a constant accelerat
 
 Similar to last time, these equations show the trajectory of the ball. Again, we are neglecting the effects of Special Relativity for now.
 $$
-\begin{aligned}
+\begin{align}
 z &= z' + \frac{1}{2}gt^2\\
 t &= t'
-\end{aligned}
+\end{align}
 $$
 By plotting the trajectory loosely, it is now apparent that the transformations between these coordinates are not linear.
 
@@ -34,6 +34,6 @@ From the equations, the motion of the ball is parabolic in the lab frame of refe
 These transformations show that a linear motion in one frame of reference will be linear in another frame if both frames of reference are inertial. In other words, an object in constant motion will be in constant motion in all inertial frames of reference.
 On the other hand, if one frame is undergoing an acceleration, that frame may perceive the trajectory as being curved; an object moving in a straight line can appear to be deviating from the straight path, or even accelerating.
 These observations are indeed obvious, after all just Galilean Relativity is sufficient to come to these conclusions. However, what one may overlook is the fact that light is also affected by this effect. 
-![[Fig 01.05 Curved Trajectory|50%|center]]
+![[Fig 01.05 Curved Trajectory.excalidraw|50%|center]]
 
 [^1]: Please ignore the parabola's appearance not being very parabolic. I tried my best.
