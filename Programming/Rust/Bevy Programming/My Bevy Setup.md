@@ -66,8 +66,14 @@ default-features = false
 # Enable Bevy feature
 features = [
     # Bevy functionality:
-    "bevy_winit",
-
+    "bevy_winit",	
+    "bevy_asset",
+    "bevy_sprite",
+    "bevy_core_pipeline",
+    
+    # Bevy formats:
+    "png",
+    
     # Development/Debug features:
     "dynamic_linking",
 ]
