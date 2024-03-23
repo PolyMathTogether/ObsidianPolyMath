@@ -3,7 +3,7 @@ It is as if the ball is being affected by a force. This force is dubbed the pseu
 This pseudo-force causes uniform acceleration across the frame of reference. Note that a uniform gravitational field has a similar effect of accelerating everything equally. In fact, the effect of pseudo-force and uniform gravitational field are indistinguishable.
 Allow me to introduce a simple and relatable analogy: I kidnap you and put you in a box with no window. You feel a uniform gravitational field of $g$. Can you tell whether you are on earth, or you are attached to a silent rocket running with the acceleration of $g$? You can't.
 
-![[Fig 02.01 Box.excalidraw|center]]
+![[Obsidian Repo/Physics/General Relativity/Excalidraw Figures/Fig 02.01 Box.excalidraw|center]]
 This is the Equivalence Principle.
 
 An important implication from this principle is that **if there exists a uniform gravitational field, then there exists a frame of reference in which the field is nullified**.
@@ -11,4 +11,4 @@ For example, in the elevator scenario I mentioned prior, the gravitational field
 
 In the case of true gravity, no such frame of reference exist. True gravity can also be identified by the effect of tidal force, where objects can be deformed due to different magnitudes of force in different positions.
 
-![[Fig 02.02 Tidal Forces.excalidraw|center]]
+![[Obsidian Repo/Physics/General Relativity/Excalidraw Figures/Fig 02.02 Tidal Forces.excalidraw|center]]
