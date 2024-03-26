@@ -50,3 +50,37 @@ I(n) &= \frac{\tan x \sec^{n-2} x}{n-1} + \frac{n-2}{n-1}I(n-2)
 &= - \frac{1}{a} \sinh^{-1} \frac{a}{x} + C
 \end{align*}
    $$
+   # Logarithm functions
+   ---
+   1. $\int \log x \, dx$
+      $$\begin{align*}
+\int \log x \, dx = x\log x -x + C
+\end{align*}$$
+2. $\int x\log x \, dx$
+   $$\begin{align*}
+\int x\log x \, dx = \frac{1}{4}\int \log t \, dt \hspace{3em} (t=x^2) 
+\end{align*}$$
+3. $\int x^n\log x \, dx$
+   $$\begin{align*}
+\int x^n\log x \, dx = \frac{1}{(n+1)^2}\int \log t \, dt \hspace{3em}(t=x^{n+1}) 
+\end{align*}$$
+4. $\int \log^2 x \, dx$
+   $$\begin{align*}
+\int \log^2 x \, dx &= \int t^2e^t \, dt \hspace{3em} (t=\log x) \\ \\
+&= t^2e^t - 2te^t + 2\int e^t \, dt \\ \\
+&= x\log^2 x - 2x\log x+2x + C
+\end{align*}$$
+5. $\int \log^nx \, dx$
+   $$\begin{align*}
+I(n) &= \int \log^nx \, dx \\ \\ 
+&= \int t^ne^t \, dt \hspace{3em} (t=\log x) \\ \\ 
+&= t^ne^t - nI(n-1) \\ \\
+&= x\log^nx - nI(n-1)
+\end{align*}$$
+6. $\int \frac{1}{\log x} \, dx$
+   $$\begin{align*}
+\int \frac{1}{\log x} \, dx &= \int \frac{e^t}{t} \, dt  \hspace{3em} (t = \log x) \\ \\
+&= \int \sum_{n=0}^{\infty} \frac{t^{n-1}}{n!} \, dt \\ \\
+&= \ln t + \sum_{n=1}^{\infty} \frac{1}{n}\frac{t^n}{n!} + C \\ \\
+&= \ln \ln t + \sum_{n=1}^{\infty} \frac{1}{n}\frac{\log^n t}{n!} + C
+\end{align*}$$
