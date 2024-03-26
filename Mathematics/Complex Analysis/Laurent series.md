@@ -1,6 +1,6 @@
 # Definition
 ---
->_Laurent series_ or Laurent expansion is a <u>representation</u> of function $f(z)$. It is normally used for complex function if _Taylor series_ doesnt work.
+>_Laurent series_ or Laurent expansion is a <u>representation</u> of function $f(z)$. It is normally used for complex function if _Taylor series_ doesn't work.
 $$f(z) = \frac{1}{2\pi i} \sum_{-\infty}^{\infty} a_{n} (z - c)^n$$
 
 - $c$ and $a_n$ are constants.
