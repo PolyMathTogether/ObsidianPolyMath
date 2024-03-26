@@ -20,7 +20,7 @@ I(n) &= \frac{\tan x \sec^{n-2} x}{n-1} + \frac{n-2}{n-1}I(n-2)
 ---
 1. $\int \sqrt{ a^2 + x^2 } \, dx$
    $$\begin{align*}
-\int \sqrt{ a^2 + x^2 } \, dx &= a^2\int \sec^2(t)\sqrt{ 1+\tan^2(t) } \,  dt \\ \\
+\int \sqrt{ a^2 + x^2 } \, dx &= a^2\int \sec^2(t)\sqrt{ 1+\tan^2(t) } \,  dt \hspace{3em} (x=a\tan t)\\ \\
 &= a^2 \int \sec^3(t) \, dt \\ \\
 &= a^2 \int \sec(t) \, dt + a^2 \int \tan^2(t) \sec(t) \, dx \\ \\
 &= a^2 \ln\left|\tan(t) + \sec(t)\right| + a^2 \tan(t)\sec(t) - a^2\int \sec^3(t) \, dt \\ \\
@@ -38,7 +38,7 @@ I(n) &= \frac{\tan x \sec^{n-2} x}{n-1} + \frac{n-2}{n-1}I(n-2)
 \end{align*}$$
 4. $\int \frac{1}{\sqrt{ x^2+a^2 }} \, dx$
    $$\begin{align*}
-\int \frac{1}{\sqrt{ x^2+a^2 }} \, dx &= \int \frac{\cosh t}{\cosh t} \, dt \\ \\
+\int \frac{1}{\sqrt{ x^2+a^2 }} \, dx &= \int \frac{\cosh t}{\cosh t} \, dt \hspace{3em} (x=a\sinh t)\\ \\
 &= t + C \\ \\
 &= \sinh^{-1} \frac{x}{a} + C
 \end{align*}$$
