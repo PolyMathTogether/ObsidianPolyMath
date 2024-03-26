@@ -29,6 +29,24 @@ I(n) &= \frac{\tan x \sec^{n-2} x}{n-1} + \frac{n-2}{n-1}I(n-2)
 \end{align*}$$
 2. $\int \left(\sqrt{ a^2 + x^2 }\right)^n \, dx$
    $$\begin{align*}
-\int \left(\sqrt{ a^2 + x^2 }\right)^n \, dx  = a^{n+2}\int \sec^{n+2}(t) \, dt 
+\int \left(\sqrt{ a^2 + x^2 }\right)^n \, dx  = a^{n+1}\int \sec^{n+2}(t) \, dt 
 \end{align*}$$
 3. $\int x^2\sqrt{ a^2+x^2 } \, dx$
+   $$\begin{align*}
+\int x^2\sqrt{ a^2+x^2 } \, dx &= a^6 \int \tan^2t\sec^3t \, dt \\ \\
+&=a^6\left(\int \sec^3t \, dt -  \int \sec^5t \, dt  \right)
+\end{align*}$$
+4. $\int \frac{1}{\sqrt{ x^2+a^2 }} \, dx$
+   $$\begin{align*}
+\int \frac{1}{\sqrt{ x^2+a^2 }} \, dx &= \int \frac{\cosh t}{\cosh t} \, dt \\ \\
+&= t + C \\ \\
+&= \sinh^{-1} \frac{x}{a} + C
+\end{align*}$$
+5. $\int \frac{1}{x\sqrt{ x^2+a^2 }} \, dx$
+   $$\begin{align*}
+\int \frac{1}{x\sqrt{ x^2+a^2 }} \, dx &= \frac{1}{a}\int \frac{a}{x^2\sqrt{ 1+\left( \frac{a}{x} \right)^2 }} \, dx \hspace{3em} \left( t=\frac{a}{x} \right) \\ \\
+&= -\frac{1}{a}\int \frac{1}{1+t^2} \, dt \\ \\
+&= - \frac{1}{a} \sinh^{-1}t + C \\ \\
+&= - \frac{1}{a} \sinh^{-1} \frac{a}{x} + C
+\end{align*}
+   $$
