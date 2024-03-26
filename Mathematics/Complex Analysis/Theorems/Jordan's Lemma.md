@@ -1,4 +1,4 @@
-Suppose have a continous function defined on _semicicular contour_. If the function has the form:
+Suppose have a continuous function defined on _semicircular contour_. If the function has the form:
 $$f(z) = e^{iaz}g(z)$$
 Then the _lemma_ states that:
 $$\left|\oint_{C_{R}}f(z)dz_{0}\right| \leq \frac{\pi}{a}M_{R} \hspace{1em} \text{where} \hspace{1em} M_{R} := \max_{\theta \in [0, \pi]} \left|g(Re^{i\theta})\right| $$

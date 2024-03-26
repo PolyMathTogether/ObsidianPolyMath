@@ -1,6 +1,6 @@
 # Riemann sums
 ## Basic overview
-Riemann sums are a method of approximation of integrals and discribe the formal limit definition of an integral. 
+Riemann sums are a method of approximation of integrals and describe the formal limit definition of an integral. 
 ## Equations
 $$\int\limits_a^b f(x)dx=\lim_{n\to\infty}\sum^n_{i=0}f\left(a+\frac{b-a}{n}i\right)\frac{b-a}{n}$$
 ## Intuition

@@ -7,7 +7,7 @@ prev: '"[[Entity Component System Paradigm]]"'
 ---
 # Bevy plugins:
 ---
-- All bevy [[Feature]]s can be consisder as _**plugins**_.
+- All bevy [[Feature]]s can be considered as _**plugins**_.
 - Plugin is **collection of code** used to modify the _App_.
 - You can disable a [[Feature]] if you don't want it in app.
 - You can also build your own _plugin_. If it doesnt contribute to Bevy, it is called _3rd-party plugin_. To use other's 3rd-party plugin have to do:

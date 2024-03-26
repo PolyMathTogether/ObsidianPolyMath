@@ -1,1 +1,1 @@
-Correlation is any assocation between two random variables.
+Correlation is any association between two random variables.

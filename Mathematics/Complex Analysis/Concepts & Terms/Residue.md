@@ -1,7 +1,8 @@
 Definition (Residue). Let $f: U \to \mathbb C$ be holomorphic, and let $z_0 \in \mathbb C$. We define $$\mathrm{Res}(f, z_0) = \frac{1}{2\pi i} \int_\gamma f \, dz$$ where $\gamma$ is a positively oriented simple closed curve enclosing $z_0$.
 
 # Residue theorem
-TODO
+Definition: The Residue theorem  states that the line integral of curve $\gamma$ is the sum of it's residues inside $\gamma$
+$$\int_\gamma=2\pi{i}\sum \text{Res}(f,a_k),\text{ whereas } a_k \text{ is the residues}$$
 # Applications to computing integrals
 Example 1. Consider $$\int_{-\infty}^\infty \frac{1}{1+x^2}\, dx$$ This is perhaps not the best example of the power of the Residue theorem, considering we know from elementary calculus that $\frac{d}{dx} \arctan x = \frac{1}{1+x^2}$ and therefore $$\int_{-\infty}^{\infty} (1+x^2)^{-1}\, dx = \arctan(\infty) - \arctan(-\infty) = \pi/2 + \pi/2 = \pi.$$ However, the method we will describe does not rely on the fundamental theorem of calculus (namely, the statement that $\int_a^b \frac{d}{dx} f(x) \, dx = f(b)-f(a)$), and therefore can be used to compute integrals in scenarios when the anti-derivative of a function cannot be expressed in terms of "elementary functions." Here, *elementary functions* refer to the canon of functions we deem "elementary" (composition, sums, and products of functions like $e^x$, $\log x$, polynomials, rational functions, trig/hyperbolic functions).
 

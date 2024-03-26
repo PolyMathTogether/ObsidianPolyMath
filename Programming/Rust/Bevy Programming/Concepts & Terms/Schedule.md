@@ -6,7 +6,7 @@
 # Metadata
 ---
 - Run conditions.
-- Odering dependencies.
+- Ordering dependencies.
 - Systems sets.
 
 # Primary Schedules:
