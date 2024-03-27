@@ -50,6 +50,13 @@ I(n) &= \frac{\tan x \sec^{n-2} x}{n-1} + \frac{n-2}{n-1}I(n-2)
 &= - \frac{1}{a} \sinh^{-1} \frac{a}{x} + C
 \end{align*}
    $$
+6. $\int \frac{1}{x\sqrt{ x^4 +1}} \, dx$
+   $$\begin{align*}
+\int \frac{1}{x\sqrt{ x^4 - 1}} \, dx &= \int \frac{1}{t\sqrt{ t^2 -1}} \, dt  \hspace{3em} (t=x^2) \\ \\
+&= \int \frac{\tan u \sec u}{\tan u \sec u} \, du \hspace{3em} (t=\sec u) \\ \\
+&= u + C \\ \\
+&= \sec^{-1}x^2 + C 
+\end{align*}$$
    # Logarithm functions
    ---
    1. $\int \log x \, dx$
@@ -80,7 +87,8 @@ I(n) &= \int \log^nx \, dx \\ \\
 6. $\int \frac{1}{\log x} \, dx$
    $$\begin{align*}
 \int \frac{1}{\log x} \, dx &= \int \frac{e^t}{t} \, dt  \hspace{3em} (t = \log x) \\ \\
-&= \int \sum_{n=0}^{\infty} \frac{t^{n-1}}{n!} \, dt \\ \\
-&= \ln t + \sum_{n=1}^{\infty} \frac{1}{n}\frac{t^n}{n!} + C \\ \\
-&= \ln \ln t + \sum_{n=1}^{\infty} \frac{1}{n}\frac{\log^n t}{n!} + C
+&= \int \sum_{n=0}^{\infty} \frac{t^{n-1}}{n!} \, dt \, dx \\ \\
+&= \ln t + \sum_{n=1}^{\infty} \frac{1}{n}\frac{t^n}{n!} + C   \hspace{3em} = e^t \sum_{n=1}^{\infty} \frac{(n-1)!}{t^n} + C\\ \\
+&= \ln \ln x + \sum_{n=1}^{\infty} \frac{1}{n}\frac{\log^n x}{n!} + C \\ \\
+&= x \sum_{n=1}^{\infty} \frac{(n-1)!}{\log^nx} + C
 \end{align*}$$
