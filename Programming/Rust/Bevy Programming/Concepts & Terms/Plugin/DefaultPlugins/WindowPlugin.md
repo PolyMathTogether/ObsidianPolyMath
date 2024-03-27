@@ -18,3 +18,5 @@ WindowPlugin {
 	..Default::default()
 }
 ```
+
+- Enable `bevy_winit` to mange window.
