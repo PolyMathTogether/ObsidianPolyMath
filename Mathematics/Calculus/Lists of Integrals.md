@@ -44,8 +44,8 @@ I(n) &= \frac{\tan x \sec^{n-2} x}{n-1} + \frac{n-2}{n-1}I(n-2)
 \end{align*}$$
 5. $\int \frac{1}{x\sqrt{ x^2+a^2 }} \, dx$
    $$\begin{align*}
-\int \frac{1}{x\sqrt{ x^2+a^2 }} \, dx &= \frac{1}{a}\int \frac{a}{x^2\sqrt{ 1+\left( \frac{a}{x} \right)^2 }} \, dx \hspace{3em} \left( t=\frac{a}{x} \right) \\ \\
-&= -\frac{1}{a}\int \frac{1}{1+t^2} \, dt \\ \\
+\int \frac{1}{x\sqrt{ x^2+a^2 }} \, dx &= \frac{1}{a}\int \frac{a}{x^2\sqrt{ 1+\left( \frac{a}{x} \right)^2 }} \, dx \hspace{3em}  \\ \\
+&= -\frac{1}{a}\int \frac{1}{\sqrt{ 1+t^2 }} \, dt \left( t=\frac{a}{x} \right)\\ \\
 &= - \frac{1}{a} \sinh^{-1}t + C \\ \\
 &= - \frac{1}{a} \sinh^{-1} \frac{a}{x} + C
 \end{align*}
@@ -91,4 +91,13 @@ I(n) &= \int \log^nx \, dx \\ \\
 &= \ln t + \sum_{n=1}^{\infty} \frac{1}{n}\frac{t^n}{n!} + C   \hspace{3em} = e^t \sum_{n=1}^{\infty} \frac{(n-1)!}{t^n} + C\\ \\
 &= \ln \ln x + \sum_{n=1}^{\infty} \frac{1}{n}\frac{\log^n x}{n!} + C \\ \\
 &= x \sum_{n=1}^{\infty} \frac{(n-1)!}{\log^nx} + C
+\end{align*}$$
+# Trigno function
+---
+1. $\int e^x \cos x \, dx$
+   $$\begin{align*}
+\int e^x \cos x \, dx &= Re\int e^x e^{ix} \, dx \\ \\
+&= Re \left( \frac{1}{i+1}e^{x(i+1)} \right) + C \\ \\
+&=  \frac{e^x}{2} Re((1-i)e^{ix}) + C \\ \\
+&= e^x\frac{\cos x+ \sin x}{2} + C
 \end{align*}$$
