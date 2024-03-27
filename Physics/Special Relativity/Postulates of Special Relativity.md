@@ -22,4 +22,12 @@ $\quad$An experiment was run to prove the existence of the luminiferous aether b
 $\quad$This negative result shows that the aether does not exist. Light moves as it pleases.
 ## The Postulate
 ---
-$\quad$TBA
+$\quad$From the aforementioned Michelson-Morley Experiment, it shows that the speed of light is constant regardless of the direction or velocity it was shot at, and that there is no absolute frame of reference. So, the primary postulates of special relativity are the following:
+
+1. The law of physics remains the same in all inertial frames of reference.
+2. The speed of light measured in all frames of reference equals to the constant $c$.
+
+$\quad$The second postulate may seem counterintuitive when applied to the car-and-flashlight example above. From the car's frame of reference, the light beam would be $ct$ in front of the car after $t$ amount of time has passed in that frame. However, in the lab frame of reference, the light beam would be $(c - v_{car})t$ in front of the car after $t$ has passed.
+
+![[Fig 01.03 Car and Light 2|center]]
+$\quad$This is due to the fact that time progress at a different rate between the two frames of reference. The phenomenon is called [[Time Dilation]].
