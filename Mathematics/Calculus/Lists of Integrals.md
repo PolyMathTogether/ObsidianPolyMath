@@ -56,9 +56,9 @@ I(n) &= \frac{\tan x \sec^{n-2} x}{n-1} + \frac{n-2}{n-1}I(n-2)
 &= \int \frac{\tan u \sec u}{\tan u \sec u} \, du \hspace{3em} (t=\sec u) \\ \\
 &= u + C \\ \\
 &= \sec^{-1}x^2 + C 
-\end{align*}$$
-   # Logarithm functions
-   ---
+\end{align*}$$ 
+# Logarithm functions
+---
    1. $\int \log x \, dx$
       $$\begin{align*}
 \int \log x \, dx = x\log x -x + C
@@ -101,3 +101,5 @@ I(n) &= \int \log^nx \, dx \\ \\
 &=  \frac{e^x}{2} Re((1-i)e^{ix}) + C \\ \\
 &= e^x\frac{\cos x+ \sin x}{2} + C
 \end{align*}$$
+# Integration Bees
+---
