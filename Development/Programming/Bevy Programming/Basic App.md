@@ -37,10 +37,10 @@ fn main()
 
 > [!tip] You can consider App as the Bevy Program
 
-What is App:
+What is an App:
 ---
-- An [App](https://docs.rs/bevy/latest/bevy/app/struct.App.html): in the docs, there are three main fields:
-	- [[World]]: stores all the game's datas.
+- An [App](https://docs.rs/bevy/latest/bevy/app/struct.App.html): there are three main fields:
+	- [[World]]: A storage for game's data.
 	- [[Schedule]]: a collection of [[System]]s.
 	- [[Runner]]: bases on schedules, the runner controls the broad execution strategy.
 

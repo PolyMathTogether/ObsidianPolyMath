@@ -1,3 +1,0 @@
----
-title: Bevy Plugin
----
