@@ -1,4 +1,4 @@
-> [!info] **WindowPlugin** is one of bevy [[Feature]]s that defines an interface for windowing support.
+> [!info] **WindowPlugin** is one of bevy [[DefaultPlugins]] that defines an interface for windowing support.
 
 ```rust
 use bevy::prelude::{

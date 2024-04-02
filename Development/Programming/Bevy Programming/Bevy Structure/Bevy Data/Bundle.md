@@ -4,7 +4,7 @@ Bundle is something similar to class in OOP for our [[Entity]]. It helps you cre
 ---
 - To create a bundle, pass the trait `Bundle` before your struct:
 ```rust
-#[derive(Component)]
+#[derive(Bundle)]
 struct PlayerBundle {
 	health: f32,
 	sprite: SpriteSheetBundle,

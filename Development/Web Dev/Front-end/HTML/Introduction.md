@@ -1,5 +1,6 @@
 Have you ever thought about "how is a website **structured**"? It also has a **skeleton structure** like us and is written entirely in a language. That is **HTML** or **Hypertext Markdown Language**. It is interpreted by our browser such as Chrome, Firefox then converts into a visual web page. 
 
+
 # History
 ---
 **HTML** was initially invented and developed by [Tim Berners-Lee](https://en.wikipedia.org/wiki/Tim_Berners-Lee) in 1991. Its first version was __very simple__ but it allowed user to create a webpage to display on _any web browsers_. Overtime, it gradually became more complicated. The newest version is HTML5.
@@ -17,7 +18,7 @@ Have you ever thought about "how is a website **structured**"? It also has a **s
 
 # How it works?
 ---
-When a webpage is loaded, your browser recieves an HTML document from the server. This document is read by our browser then interpreted its HTML elements to JS objects called **Node**. Eventually, we have a tree structured model known as **DOM (Document Object Model)**. The same with CSS styles, we have **CSSOM (CSS Object Model)** tree. 
+When a webpage is loaded, your browser recieves an HTML [[Document]] from the server. This document is read by our browser then interpreted its HTML elements to JS objects called **Node**. Eventually, we have a tree structured model known as **DOM ([[Document Object Model]])**. The same with CSS styles, we have **CSSOM (CSS Object Model)** tree. 
 
 The DOM and CSSOM are combined to form the **render tree**. Each node in this tree has content and styling. Also, it must be "visible" node. For calculating the position and dimensions of each node, the **layout** will take this role. 
 
