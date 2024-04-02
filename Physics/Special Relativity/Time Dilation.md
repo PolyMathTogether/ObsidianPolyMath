@@ -44,3 +44,25 @@ $$
 t = \gamma t'
 $$
 $\quad$In conclusion, when a frame of reference is moving at a speed close to the speed of light relative to us, more time will pass in our frame than in the moving frame. So, the other frame will appear to have "slowed down". However, do note that the moving frame of reference will also see us moving, hence both frames of reference will see the other frame is in slow-motion. This does not cause any paradox because the time will sync up if the two frames change directions to meet each other again.
+$\quad$Let's have an example which will solidify our understanding.
+$\quad$A particle starts traveling from earth at the constant velocity of $0.5c$ towards a planet $10$ lightyears away from earth. How long does the particle take to travel to the planet in $a)$ The earth's frame of reference and $b)$ The particle's frame of reference?
+
+![[Fig 02.06 Example|center]]
+
+$\quad$The answer for the earth's frame of reference is trivial; it takes light 10 years to reach the other planet, so it would take the particle 20 years to reach it. For the particle, we shall first find its Lorentz Factor $\gamma$:
+$$
+\begin{aligned}
+\gamma &= \frac{1}{\sqrt{1-\frac{v}{c}^2}}\\
+&= \frac{1}{\sqrt{1-(\frac{1}{2})^2}}\\
+&= \frac{2}{\sqrt{3}}
+\end{aligned}
+$$
+$\quad$With the relationship between the time elapsed in earth's frame $t$ and in the particle's frame $t'$ being
+$$
+\begin{aligned}
+t &= \gamma t'\\
+t' &= \frac{t}{\gamma}\\
+&= \frac{(20)}{(\frac{2}{\sqrt{3}})} \approx 17.32..
+\end{aligned}
+$$
+$\quad$Thus, approximately $17.32$ years will have passed for the particle upon its arrival on the planet. As the velocity approaches the speed of light, the difference in time grows more extreme. For example, if the particle was traveling at $0.99c$ instead, the time passed will be approximately $2.82$ years.
