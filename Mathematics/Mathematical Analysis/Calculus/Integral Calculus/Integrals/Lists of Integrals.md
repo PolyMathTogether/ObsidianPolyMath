@@ -101,5 +101,3 @@ I(n) &= \int \log^nx \, dx \\ \\
 &=  \frac{e^x}{2} Re((1-i)e^{ix}) + C \\ \\
 &= e^x\frac{\cos x+ \sin x}{2} + C
 \end{align*}$$
-# Integration Bees
----

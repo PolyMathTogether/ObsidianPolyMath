@@ -1,3 +1,8 @@
+---
+tags:
+  - "#Calculus"
+---
+
 # Derivatives
 ## Brief Overview
 The derivative is knownn as the instantaneous rate of change, it is one of the fundamental parts of Calculus and comes up in many applications, including statistics, physics and more. 
