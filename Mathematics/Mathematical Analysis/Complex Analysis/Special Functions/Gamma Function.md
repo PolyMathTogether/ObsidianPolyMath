@@ -21,7 +21,7 @@ $$
 ---
 
 - Recurrence:
-  $$\Gamma(z) = z\Gamma(z-1)$$
+  $$\Gamma(z+1) = z\Gamma(z)$$
 - Euler's reflection formula:
   $$\Gamma(1-z)\Gamma(z) = \frac{\pi}{\sin(\pi z)}$$
 - Legendre duplication formula:
