@@ -23,7 +23,7 @@ $$
 $$
 Finally, **differentiate** both sides we get:
 $$
-\boxed{\psi (z+1) = \frac{1}{z} + \psi (z)} \hspace{3em} (1)
+\boxed{\psi (z+1) = \frac{1}{z} + \psi (z)} \tag{1}
 $$
 
 By using the **recurrence relation** $(1)$ for $z = n \in \mathbb{Z}^{0+}$ we can get a relation with [[Harmonic Series]]:
@@ -32,7 +32,7 @@ $$
 $$
 This equivalents to:
 $$
-\boxed{\psi(n+1) = H_{n} + \psi(1)} \hspace{3em} (2)
+\boxed{\psi(n+1) = H_{n} + \psi(1)} \tag{2}
 $$
 
 Applying [[Stirling’s formula]] to **log-gamma function** $\ln \Gamma(n)$:
@@ -46,9 +46,28 @@ $$\begin{align*}
 \end{align*}$$
 Then taking the limit as $n$ approaches to infinity, we get:
 $$
-\lim_{ n \to \infty } \psi (n) = \lim_{ n \to \infty } \ln n  \hspace{3em} (3)
+\lim_{ n \to \infty } \psi (n) = \lim_{ n \to \infty } \ln n  \tag{3}
 $$
-From $(2), (3)$, we have the popular [[Euler–Mascheroni Constant]]:
+From $(2)$ and $(3)$, we have the popular [[Euler–Mascheroni Constant]]:
 $$
 \boxed{\gamma = \lim_{ n \to \infty } (H_{n} - \ln n)}
 $$
+The same way we did for $(2)$ from $(1)$:
+$$
+\psi(z+n) = \frac{1}{z+n} + \frac{1}{z+n-1} + \cdots + \frac{1}{z} + \psi(x) \tag{4}
+$$
+Substracting $(4)$ from $(2)$:
+$$
+\psi(z+n) - \psi(n+1) = \sum_{k=0}^{n-1} \left(\frac{1}{z+k} - \frac{1}{k+1}\right) + \gamma + \psi(z) \tag{5}
+$$
+By doing the same with $(3)$ for $\psi(z+n)$:
+$$
+\lim_{ n \to \infty } (\psi(z+n) - \psi(n+1)) = 0
+$$
+Taking the limit both sides of eq $(5)$ to obtain:
+$$\boxed{\psi(z) = -\sum_{k=0}^{\infty} \left(\frac{1}{z+k} - \frac{1}{k+1}\right) - \gamma} \tag{6}$$
+Thanks to $(6)$ [[Trigamma Function]] a.k.a $\psi'(x)$ can be defined as:
+$$\boxed{\psi'(z) = \sum_{k=0}^{\infty} \frac{1}{(z+k)^2}} \tag{7}$$
+Putting $z=1$ to $(7)$:
+$$\psi'(1) = \zeta(2) = \frac{\pi^2}{6}$$
+Where $\zeta(z)$ is [[Riemann zeta function]].
