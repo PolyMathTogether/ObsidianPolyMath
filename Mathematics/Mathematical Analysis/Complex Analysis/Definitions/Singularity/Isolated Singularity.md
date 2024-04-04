@@ -1,3 +1,9 @@
+---
+tags:
+  - Complex-Analysis
+  - Mathematical-Analysis
+---
+
 # Definition
 ---
 If complex function $f(z)$ with [[Singularity]] $c$ is [[Holomorphic]] on $\mathcal{U} \setminus \{c\}$, then $c$ is known as *isolated singularity* of $f$. Where $\mathcal{U} \in \mathcal{C}$ is an [[Open Set]].

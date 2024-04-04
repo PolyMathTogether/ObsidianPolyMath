@@ -1,3 +1,10 @@
+---
+tags:
+  - Integral-Calculus
+  - Calculus
+---
+
+
 # Riemann sums
 ## Basic overview
 Riemann sums are a method of approximation of integrals and describe the formal limit definition of an integral. 

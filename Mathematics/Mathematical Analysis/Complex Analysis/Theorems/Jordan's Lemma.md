@@ -1,3 +1,10 @@
+---
+tags:
+  - Complex-Analysis
+  - Theorems
+  - Mathematical-Analysis
+---
+
 Suppose have a continuous function defined on _semicircular contour_. If the function has the form:
 $$f(z) = e^{iaz}g(z)$$
 Then the _lemma_ states that:

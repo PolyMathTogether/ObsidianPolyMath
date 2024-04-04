@@ -1,3 +1,10 @@
+---
+tags:
+  - "#Set-Theory"
+  - "#Mathematical-Logic"
+---
+
+
 # Open Cover
 ---
 - $T \subset \mathcal{R}$

@@ -1,3 +1,10 @@
+---
+tags:
+  - Complex-Analysis
+  - Mathematical-Analysis
+---
+
+
 # Definition
 ---
 An [[Analytic]] function $f: C \to C$ has a _singularity_ $c$ if it is not _analytic_ at that point $c$. (undefined, discontinuity, non-differentiable, ...) 

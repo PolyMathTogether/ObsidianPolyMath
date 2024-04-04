@@ -1,3 +1,9 @@
+---
+tags:
+  - "#Integrals"
+  - "#Integral-Calculus"
+  - "#Calculus"
+---
 
 # Trigno functions
 ---

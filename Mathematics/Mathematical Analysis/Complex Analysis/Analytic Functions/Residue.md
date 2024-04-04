@@ -1,4 +1,10 @@
-Definition (Residue). Let $f: U \to \mathbb C$ be holomorphic, and let $z_0 \in \mathbb C$. We define $$\mathrm{Res}(f, z_0) = \frac{1}{2\pi i} \int_\gamma f \, dz$$ where $\gamma$ is a positively oriented simple closed curve enclosing $z_0$.
+---
+tags:
+  - Complex-Analysis
+  - Mathematical-Analysis
+---
+
+Definition (Residue). Let $f: U \to \mathbb C$ be [[Holomorphic]], and let $z_0 \in \mathbb C$. We define $$\mathrm{Res}(f, z_0) = \frac{1}{2\pi i} \int_\gamma f \, dz$$ where $\gamma$ is a positively oriented simple closed curve enclosing $z_0$.
 
 # Residue theorem
 Definition: The Residue theorem  states that the line integral of curve $\gamma$ is the sum of it's residues inside $\gamma$

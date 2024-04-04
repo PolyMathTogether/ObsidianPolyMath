@@ -1,3 +1,9 @@
+---
+tags:
+  - "#Set-Theory"
+  - "#Mathematical-Logic"
+---
+
 > [!info] 
 > Theorem states that the following two statements are equivalent:
 > - $S$ is _closed_[^1] and _bounded_[^2].

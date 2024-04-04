@@ -1,3 +1,12 @@
+---
+tags:
+  - "#PDE"
+  - "#Differential-Equations"
+  - "#Differential-Calculus"
+  - "#Calculus"
+---
+
+
 Cauchy-Riemann equations are *necessary and sufficient condition* for a function $f(z)$ to be *complex differentiable*:
 $$\frac{\partial u}{\partial x} = \frac{\partial v}{\partial y}$$
 and
