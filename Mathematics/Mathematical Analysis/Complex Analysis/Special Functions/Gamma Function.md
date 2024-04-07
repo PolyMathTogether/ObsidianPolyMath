@@ -23,7 +23,9 @@ $$
 - Recurrence:
   $$\Gamma(z+1) = z\Gamma(z)$$
 - Euler's reflection formula:
-  $$\Gamma(1-z)\Gamma(z) = \frac{\pi}{\sin(\pi z)}$$
+  $$\begin{align*}
+\Gamma(1-z)\Gamma(z) &= \frac{\pi}{\sin(\pi z)} \\
+\end{align*}$$
 - Legendre duplication formula:
   $$\Gamma(2z) = \frac{2^{2z}}{2\sqrt{ \pi }} \Gamma(z)\Gamma\left( z+\frac{1}{2} \right)$$
 - Gauss’s multiplication formula:
