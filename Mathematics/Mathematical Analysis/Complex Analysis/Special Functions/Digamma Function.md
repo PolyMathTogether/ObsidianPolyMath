@@ -19,7 +19,7 @@ $$
 \begin{align*}
 \Gamma(z+1) &= z\Gamma(z) \, ,\\
 \ln \Gamma(z+1) &= \ln z + \ln \Gamma(z) \\
-\end{align*}
+\end{align*} \tag*{}
 $$
 Finally, **differentiate** both sides we get:
 $$
@@ -28,7 +28,7 @@ $$
 
 By using the **recurrence relation** $(1)$ for $z = n \in \mathbb{Z}^{0+}$ we can get a relation with [[Harmonic Series]]:
 $$
-\psi (n+1) = \frac{1}{n} + \frac{1}{n-1} + \cdots + 1 + \psi(1) 
+\psi (n+1) = \frac{1}{n} + \frac{1}{n-1} + \cdots + 1 + \psi(1) \tag*{}
 $$
 This equivalents to:
 $$
@@ -37,20 +37,20 @@ $$
 
 Applying [[Stirling’s formula]] to **log-gamma function** $\ln \Gamma(n)$:
 $$
-\ln \Gamma(n) \operatorname*{\sim}_{n\to\infty} \left( n+\frac{1}{2} \right)\ln n + \frac{1}{2} \ln n - n \\
+\ln \Gamma(n) \operatorname*{\sim}_{n\to\infty} \left( n+\frac{1}{2} \right)\ln n + \frac{1}{2} \ln n - n \tag*{}
 $$
 From this approximation, the **asymptotic behavior** of $\psi(n)$ follows:
 $$\begin{align*}
 \psi(n) &\operatorname*{\sim}_{n\to\infty} \ln n + \frac{1}{2n} \\ 
 &\operatorname*{\sim}_{n\to\infty} \ln n
-\end{align*}$$
+\end{align*} \tag*{}$$
 Then taking the limit as $n$ approaches to infinity, we get:
 $$
 \lim_{ n \to \infty } \psi (n) = \lim_{ n \to \infty } \ln n  \tag{3}
 $$
 From $(2)$ and $(3)$, we have the popular [[Euler–Mascheroni Constant]]:
 $$
-\boxed{\gamma = \lim_{ n \to \infty } (H_{n} - \ln n)}
+\boxed{\gamma = \lim_{ n \to \infty } (H_{n} - \ln n)} \tag*{}
 $$
 The same way we did for $(2)$ from $(1)$:
 $$
@@ -62,12 +62,12 @@ $$
 $$
 By doing the same with $(3)$ for $\psi(z+n)$:
 $$
-\lim_{ n \to \infty } (\psi(z+n) - \psi(n+1)) = 0
+\lim_{ n \to \infty } (\psi(z+n) - \psi(n+1)) = 0 \tag*{}
 $$
 Taking the limit both sides of eq $(5)$ to obtain:
 $$\boxed{\psi(z) = -\sum_{k=0}^{\infty} \left(\frac{1}{z+k} - \frac{1}{k+1}\right) - \gamma} \tag{6}$$
 Thanks to $(6)$ [[Trigamma Function]] a.k.a $\psi'(x)$ can be defined as:
 $$\boxed{\psi'(z) = \sum_{k=0}^{\infty} \frac{1}{(z+k)^2}} \tag{7}$$
 Putting $z=1$ to $(7)$:
-$$\psi'(1) = \zeta(2) = \frac{\pi^2}{6}$$
+$$\psi'(1) = \zeta(2) = \frac{\pi^2}{6} \tag*{}$$
 Where $\zeta(z)$ is [[Riemann zeta function]].
