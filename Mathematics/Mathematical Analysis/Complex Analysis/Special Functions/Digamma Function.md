@@ -8,7 +8,7 @@ tags:
 ---
 The **digamma function**, denoted as $\psi(z)$, is the **logarithm derivative** of the [[Gamma Function]]. It is also the **polygamma function** of first order:
 $$
-\psi (z) = \frac{d}{dz} \ln \Gamma (z) = \frac{\Gamma'(z)}{\Gamma(z)} \tag{*}
+\psi (z) = \frac{d}{dz} \ln \Gamma (z) = \frac{\Gamma'(z)}{\Gamma(z)} \tag*{}
 $$
 **Digamma function** is also [[Holomorphic]] on $\mathbb{C}/\mathcal{Z}_{\leq 0}$ with simple poles where $z$ is **non-positive integer**.
 
