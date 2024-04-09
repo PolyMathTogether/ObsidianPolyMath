@@ -10,7 +10,7 @@ The **gamma function** is a **special function** defined for all complex numbers
 $$
 \Gamma(z) = \int_{0}^{\infty} t^{z-1}e^{-t} \, dt \hspace{3em} \mathcal{R}(z) > 0 
 $$
-The **gamma function** is defined by **analytic continuation**. It is a [[Meromorphic]] function with no **zeros** and with **simple poles** of residue $\text{Res}_{z = -n}\,\Gamma(z) = (-1)^n / n!$ for every **positive integers** $n$. $1/\Gamma(z)$ is an [[Entire Function]] with simple zeros at $z=-n$. 
+The **gamma function** is defined by [[Analytic Continuation]]. It is a [[Meromorphic]] function with no **zeros** and with **simple poles** of residue $\text{Res}_{z = -n}\,\Gamma(z) = (-1)^n / n!$ for every **positive integers** $n$. $1/\Gamma(z)$ is an [[Entire Function]] with simple zeros at $z=-n$. 
 
 For every **positive integers** $n$ the gamma function is [[Factorial]] of $n-1$:
 $$

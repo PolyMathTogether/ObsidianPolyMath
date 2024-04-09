@@ -70,4 +70,4 @@ Thanks to $(6)$ [[Trigamma Function]] a.k.a $\psi'(x)$ can be defined as:
 $$\boxed{\psi'(z) = \sum_{k=0}^{\infty} \frac{1}{(z+k)^2}} \tag{7}$$
 Putting $z=1$ to $(7)$:
 $$\psi'(1) = \zeta(2) = \frac{\pi^2}{6} \tag*{}$$
-Where $\zeta(z)$ is [[Riemann zeta function]].
+Where $\zeta(z)$ is [[Riemann Zeta Function]].
