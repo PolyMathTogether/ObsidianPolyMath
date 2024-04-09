@@ -70,7 +70,7 @@ B_6 & = & \frac{1}{42}, & B_7 & = & 0 \\
 \tag*{}$$
 ## Relationship to Zeta Function
 ---
-**Euler** also discoveried the formula for exact values of $\zeta(2n)$ for $n \in \mathbb{N}$
+**Euler** also discovered the formula for exact values of $\zeta(2n)$ for $n \in \mathbb{N}$
 $$
 \boxed {\zeta(2n) = - \frac{(2\pi i)^{2n} B_{2n}}{2(2n)!}} \tag{3}
 $$
