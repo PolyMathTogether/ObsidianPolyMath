@@ -6,4 +6,5 @@ If you know summation you can skip over the summation part of this course.
 ### Intro to Summations
 Summations are a way of adding things up, maybe if you recall from Algebra 1, sequences, sums are a type of sequences.
 ### Notation of Summations
-The 
+$$\sum_{i=c }^{n}x_i=x_{c}+x_{c+1}+x_{c+2}...+x_{n}$$
+$i$ is the index, $c$ is the indedx start, $n$ is the index end
