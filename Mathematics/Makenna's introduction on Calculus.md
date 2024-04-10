@@ -30,12 +30,22 @@ We can think about average rate of change most simply by imagining a line connec
 #### Formula
 $$\frac{f(b)-f(a)}{b-a}$$
 ## Sequences review
+### Sequences Introduction
+You can think of a sequence as a pattern with elements. 
+#### Sequence Example: 
+$$1+2+3+4+5\dots{10}$$ 
+
+In this sequence the pattern is adding one to the past element.
 # Summations
 ## Intro to Summations
-Summations are a way of adding things up, maybe if you recall from Algebra 1, sequences, sums are a type of sequences.
+Summations are a way of adding things up, maybe if you recall from Algebra 1, sequences, summations are a type of sequences.
 ## Notation of Summations
 $$\sum_{i=c }^{n}x_i=x_{c}+x_{c+1}+x_{c+2}...+x_{n}$$
 $i$ is the index, $c$ is the indedx start, $n$ is the index end
+### Summation Example
+Like before we can represent some sequences as summations, in our sequences example we can rewrite that as a summation
+$$\sum_{i=1}^{10}i=1+2+3+4+5\dots{10}$$
+$i=1$ means that the index starts at $1$, and the n value is $10$ which means it stops at $10$
 # Limits
 # Derivatives
 # Integrals
