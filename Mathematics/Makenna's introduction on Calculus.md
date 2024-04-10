@@ -53,6 +53,19 @@ $i=1$ means that the index starts at $1$, and the n value is $10$ which means it
 Derivatives are known as the instantaneous rate of change. But what does that mean? 
 ### Intuitive Approach
 Say we have some curve $f(x)$ now if we want to plot $$x^{3}-6x^{2}+10x-1$$
+![image](https://github.com/PolyMathTogether/ObsidianPolyMath/assets/93007463/b629a0f8-3363-41d8-a06f-b4637fe63fff)
+![image](https://github.com/PolyMathTogether/ObsidianPolyMath/assets/93007463/e2866e4f-9226-4006-9fc5-f6267046dfd2)
+![image](https://github.com/PolyMathTogether/ObsidianPolyMath/assets/93007463/a3d6972d-82f7-4a8e-b118-87d655d8cb39)
+![image](https://github.com/PolyMathTogether/ObsidianPolyMath/assets/93007463/46628379-0fad-40c5-bae6-5a823fc7e8e4)
+![image](https://github.com/PolyMathTogether/ObsidianPolyMath/assets/93007463/0dcb2577-9e49-4da4-8012-2bb6a354c0b3)
+![image](https://github.com/PolyMathTogether/ObsidianPolyMath/assets/93007463/611b093a-b8f6-4af1-b274-dca8524e3e7e)
+
+
+
+
+
+
+
 ## Formal definition
 Introduction to Derivatives
 # Integrals
