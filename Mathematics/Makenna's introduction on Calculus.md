@@ -47,5 +47,12 @@ Like before we can represent some sequences as summations, in our sequences exam
 $$\sum_{i=1}^{10}i=1+2+3+4+5\dots{10}$$
 $i=1$ means that the index starts at $1$, and the n value is $10$ which means it stops at $10$
 # Limits
+
 # Derivatives
+## What are Derivatives?
+Derivatives are known as the instantaneous rate of change. But what does that mean? 
+### Intuitive Approach
+Say we have some curve $f(x)$ now if we want to plot $$x^{3}-6x^{2}+10x-1$$
+## Formal definition
+Introduction to Derivatives
 # Integrals
