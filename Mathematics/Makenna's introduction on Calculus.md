@@ -29,6 +29,7 @@ In a linear standpoint we can think of the rate of change as some slope, some $y
 We can think about average rate of change most simply by imagining a line connecting some $f(a)$ and $f(b)$ where $a$ and $b$ are our intervals, the rate of change is the slope of that line. To get an equation for that we want to define some $y$ over $x$, whereas $y$ is our $f(b)-f(a)$ and our $x$ is some $b-a$, in all we get this.
 #### Formula
 $$\frac{f(b)-f(a)}{b-a}$$
+## Sequences review
 # Summations
 ## Intro to Summations
 Summations are a way of adding things up, maybe if you recall from Algebra 1, sequences, sums are a type of sequences.
