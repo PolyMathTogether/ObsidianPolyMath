@@ -41,7 +41,7 @@ $$
 
 # Bernoulli Numbers
 ---
-[[Bernoulli Number]] has **many applications** in mathematics such as summing powers of integers, finding asymptotics of [[Stirling’s formula]], and estimating the [[Harmonic Series]], ... And it also frequently pop up in considerations involving the **zeta function**.
+[[Bernoulli Numbers]] has **many applications** in mathematics such as summing powers of integers, finding asymptotics of [[Stirling’s formula]], and estimating the [[Harmonic Series]], ... And it also frequently pop up in considerations involving the **zeta function**.
 
 ## Definition
 ---

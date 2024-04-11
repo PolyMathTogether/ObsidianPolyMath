@@ -10,4 +10,4 @@ when the limit exists. Where $\hat{\mathbf{e}}_{i}$ is the **unit vector** of $i
 
 # Notation
 ---
-**Partital derivative** with respect to $x$ can be denoted as $\frac{\partial f}{\partial x}$ or $f_{x}'$ or $\partial_{x}f$.
+**Partital derivative** with respect to $x$ can be denoted as $\frac{\partial f}{\partial x}$ or $f_{x}'$ or $f_{x}$ or $\partial_{x}f$.
