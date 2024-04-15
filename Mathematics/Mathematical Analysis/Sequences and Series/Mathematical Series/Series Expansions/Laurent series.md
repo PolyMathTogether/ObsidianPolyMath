@@ -10,7 +10,7 @@ tags:
 ---
 > [!info]
 > _Laurent series_ or Laurent expansion is a <u>representation</u> of function $f(z)$. It is normally used for complex function if _Taylor series_ doesn't work.
-$$f(z) = \frac{1}{2\pi i} \sum_{-\infty}^{\infty} a_{n} (z - c)^n$$
+$$f(z) = \sum_{-\infty}^{\infty} a_{n} (z - c)^n$$
 
 - $c$ and $a_n$ are constants.
 - $a_{n} =\frac{1}{2\pi i} \oint_{\gamma} \frac{f(z)}{(z-c)^{n+1}} \, dz$.
@@ -18,7 +18,7 @@ $$f(z) = \frac{1}{2\pi i} \sum_{-\infty}^{\infty} a_{n} (z - c)^n$$
 # Principle part
 ---
 We also can write the infinite sum with:
-$$f(z) = \frac{1}{2\pi i}\left[\sum_{n = 0}^{\infty} a_{n} (z - c)^n + \sum_{n = 1}^{\infty} \frac{b_{n}}{(z-c)^n}\right] \hspace{3em} (*)$$
+$$f(z) = \sum_{n = 0}^{\infty} a_{n} (z - c)^n + \sum_{n = 1}^{\infty} \frac{b_{n}}{(z-c)^n} \hspace{3em} (*)$$
 Where:
 - $b_n = a_{-n}$
 
