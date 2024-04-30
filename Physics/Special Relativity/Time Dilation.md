@@ -43,7 +43,7 @@ $\quad$And so the final relation between the time passed in one frame of referen
 $$
 t = \gamma t'
 $$
-$\quad$In conclusion, when a frame of reference is moving at a speed close to the speed of light relative to us, more time will pass in our frame than in the moving frame. So, the other frame will appear to have "slowed down". However, do note that the moving frame of reference will also see us moving, hence both frames of reference will see the other frame is in slow-motion. This does not cause any paradox because the time will sync up if the two frames change directions to meet each other again.
+$\quad$In conclusion, when a frame of reference is moving at a speed close to the speed of light relative to us, more time will pass in our frame than in the moving frame. So, the other frame will appear to have "slowed down". However, do note that the moving frame of reference will also see us moving, hence both frames of reference will see the other frame is in slow-motion.
 $\quad$Let's have an example which will solidify our understanding.
 $\quad$A particle starts traveling from earth at the constant velocity of $0.5c$ towards a planet $10$ lightyears away from earth. How long does the particle take to travel to the planet in $a)$ The earth's frame of reference and $b)$ The particle's frame of reference?
 

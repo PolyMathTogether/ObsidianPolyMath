@@ -1,0 +1,8 @@
+$\quad$The next phenomenon resulting from the postulates is known as Simultaneity. Consider the following paradox:
+![[Fig 04.01 Barn-Pole Paradox|50%|center]]
+$\quad$A pole moves at a constant velocity into a barn, whose width is $L$. The pole's rest length is $L'$, such that its length is contracted to $L$ in the barn's frame of reference. In the barn's frame of reference, when the front end of the pole reaches the exit of the barn to the right, the back end of the pole is exactly at the entrance on the left. This means the pole fits perfectly in the barn in this frame of reference. However, in the pole's frame of reference, its length is longer than the barn's width, meaning it cannot fit into the barn. How is this possible?
+$\quad$The solution to the paradox is simultaneity. In the barn's frame of reference, the event where the front end of the pole is at the exit and the event where the back end is at the entrance occurs simultaneously, making the pole fit into the barn. On the other hand, in the pole's frame of reference, these two events have a brief time interval between them, meaning the front end of the pole would have already exited the barn by the time the back end is at the entrance.
+
+![[Fig 04.02 Barn-Pole Paradox Solution|center|200%]]
+
+$\quad$In order to express this phenomenon mathematically, let's consider another scenario: a light clock with a detector in the middle. This light clock can emit two beams of light, both from the left edge and the right edge. The detector in the middle will only be activated if it detects the light beam from both sides at the same time.

@@ -16,3 +16,7 @@ $\quad$The first phenomenon we shall explore as a consequence of the second post
 $\quad$Space and time are intertwined. Let's see how fast-moving objects get shorter in varying frames of reference.
 [[Length Contraction]]
 
+### Simultaneity
+---
+$\quad$Two events that occur at the same point in time in one frame of reference may occur at different time in another frame of reference, depending on the displacement between the two events.
+[[Simultaneity]]
