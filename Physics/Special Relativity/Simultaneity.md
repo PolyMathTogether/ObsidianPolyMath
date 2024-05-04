@@ -6,3 +6,49 @@ $\quad$The solution to the paradox is simultaneity. In the barn's frame of refer
 ![[Fig 04.02 Barn-Pole Paradox Solution|center|200%]]
 
 $\quad$In order to express this phenomenon mathematically, let's consider another scenario: a light clock with a detector in the middle. This light clock can emit two beams of light, both from the left edge and the right edge. The detector in the middle will only be activated if it detects the light beam from both sides at the same time.
+
+![[Fig 04.03 Simultaneous Light Clock|50%|center]]
+
+$\quad$Once again we will consider the two frames of reference: the frame in which the light clock is in motion with the velocity $v$ (we will call this the lab frame), and the frame in which the light clock is stationary. In the stationary frame, the light clock's length is $L'$, while in the lab frame, its length is $L$. From [[Length Contraction]], we know the relation between the lengths is $L = \frac{L'}{\gamma}$. We shall begin the thought experiment.
+$\quad$In the light clock's frame, both ends of the detector are activated simultaneously. The time the light beam from each sides reach the midpoint is $t'_{A} = t'_{B} = \frac{L'}{2c}$. 
+![[Fig 04.04 Light Clock Frame|50%|center]]
+
+$\quad$In the lab frame, the light clock is in motion. The midpoint is moving towards the B emitter, meaning the distance light beam B has to travel to reach the midpoint is less than that of light beam A. This means emitter A must activate sooner than emitter B.
+![[Fig 04.05 Lab Frame|center|200%]]
+
+$\quad$The time lag between A emitter's activation and B emitter's activation shall be denoted $\Delta t$. The time light beam A and B took to hit the midpoint shall be denoted $t_{A}$ and $t_{B}$, respectively. Obviously, $t_{A} = t_{B} + \Delta t$.
+$\quad$The distance A and B travelled is $L_{A}$ and $L_{B}$ respectively. The distance beam A travelled is half the length of the light clock, plus the distance the midpoint has travelled away.
+$$L_{A} = \frac{L}{2} + vt_{A}$$
+$\quad$And similarly, the distance beam B travelled is half the length of the light clock, subtracted by the distance the midpoint travelled towards it.
+$$L_{B} = \frac{L}{2} - vt_{B}$$
+$\quad$Additionally, by definition,
+$$\begin{aligned}
+L_{A} = ct_{A}\\
+L_{B}=ct_{B}
+\end{aligned}
+$$
+$\quad$Hence,
+$$\begin{aligned}
+ct_{A} &= \frac{L}{2} + vt_{A}\\
+t_{A} &= \frac{L}{2(c-v)}\\
+ct_{B} &= \frac{L}{2} - vt_{B}\\
+t_{B} &= \frac{L}{2(c+v)}
+\end{aligned}
+$$
+$\quad$And so, we can find the value of time lag as a result of simultaneity $\Delta t$:
+$$
+\begin{aligned}
+\Delta t &= t_{A} - t_{B}\\
+&= \frac{L}{2(c-v)} - \frac{L}{2(c+v)}\\
+&= \frac{L}{2} \left( \frac{1}{c-v} - \frac{1}{c+v} \right)\\
+&= \frac{L}{2} \left( \frac{(c+v)-(c-v)}{(c-v)(c+v)}\right)\\
+&= \frac{L}{2} \left( \frac{2v}{(c-v)(c+v)}\right)\\
+&= L \left( \frac{v}{c^2-v^2}\right)\\
+&= \frac{Lv}{c^2} \left( \frac{1}{(1-\frac{v}{c}^2)}\right)\\
+c\Delta t &= \beta L \gamma^2\space;\space\beta = \frac{v}{c}\\
+c\Delta t &= \gamma\beta L'
+\end{aligned}
+$$
+$\quad$To conclude, an event which occurs simultaneously in one frame of reference, but has the spatial difference of $x'$, will have the temporal difference of
+$$c\Delta t = \gamma \beta x'$$
+$\quad$With all three of these phenomena, we can form the ultimate transformation between two frames of reference.
