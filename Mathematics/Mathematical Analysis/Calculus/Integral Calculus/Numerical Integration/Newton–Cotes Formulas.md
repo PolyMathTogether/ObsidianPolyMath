@@ -32,6 +32,45 @@ $$
 
 # Chinese Remainder Theorem
 ---
+Given **pairwise coprime** positive numbers $\{n_i\}$ and integers $\{a_{i}\}$ such that $0 \leq a_{i} < n_{i}$ with $1 \leq i \leq k$ then
+$$
+\begin{aligned}
+x &\equiv a_{1} \hspace{1em} (\operatorname{mod} n_{1} ) \\
+& \vdots \\
+x &\equiv a_{k} \hspace{1em} (\operatorname{mod} n_{k} ) \\
+\end{aligned}
+$$
+has a solution.
+
+## Bézout's Identity
+---
+Let $a$ and $b$ be integers and $d$ is the **greatest common divisor** of $a$ and $b$. Then there exists $x$ and $y$ such that $ax + by = d$
+
+## Solution
+---
+Let $N_i = \prod_{m\neq i} n_{m}$ so $\gcd(N_{i}, n_{i})=1$ thus by **Bézout's identity** we have
+$$
+M_{i} N_{i} + m_{i} n_{i} = 1
+$$
+then the solution of the system $()$ is 
+$$
+\boxed{x = \sum_{i=1}^k a_{i}M_{i}N_{i}}
+$$
+## Lagrange Interpolation
+---
+Rewrite the system $()$ for polynomial $P_{n}(x)$ we have
+$$
+\begin{aligned}
+P_{n}(x) &\equiv y_{0} \hspace{1em} (\operatorname{mod} x-x_{0} ) \\
+& \vdots \\
+P_{n}(x) &\equiv y_{n} \hspace{1em} (\operatorname{mod} x-x_{n} ) \\
+\end{aligned}
+$$
+thus the solution of $P_n(x)$ is 
+$$
+P_{n}(x) = \sum_{m=0}^n M_{m}N_{m} f(x_{m})
+$$
+where $M_{m} = \prod_{j \neq m} (x-x_{j})$ and $N_{m} = \prod_{j\neq m}(x_{m}-x_{j})^{-1}$ 
 # Polynomial Interpolation
 ---
 **Interpolating polynomial** is defined to be a polynomial that fits a set of given **data points of a function** and give the **exact value** corresponding the value of the function being approximated.
@@ -190,7 +229,7 @@ $$
 $$
 So using $(*)$ we obtain
 $$
-\left| \int_{a}^b R_{n}(x) \, dx \right| = \left| \int_{a}^b \frac{f^{(n+1)}(\xi(x))}{(n+1)!}\ell(x) \, dx  \right| \leq \frac{M_{n+1}}{(n+1)!} \int_{a}^b \ell(x) \, dx 
+\left| \int_{a}^b R_{n}(x) \, dx \right| = \left| \int_{a}^b \frac{f^{(n+1)}(\xi(x))}{(n+1)!}\ell(x) \, dx  \right| \leq \frac{M_{n+1}}{(n+1)!} \left|\int_{a}^b \ell(x) \, dx \right|
 $$
 
 where $|f^{(n+1)}(\xi(x))| \leq M_{n+1}$. Thus we obtain
