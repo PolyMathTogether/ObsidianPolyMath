@@ -1,0 +1,2 @@
+- Input: **fragments** (a.k.a **pixels**)
+- Output: **colored pixels**

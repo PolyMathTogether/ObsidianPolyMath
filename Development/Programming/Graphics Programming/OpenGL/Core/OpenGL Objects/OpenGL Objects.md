@@ -1,0 +1,1 @@
+It means a **structure** composed by **data** and **state**. For example, [[VBO]] is an **OpenGL object** that helps you manage the GPU memory to store your vertex data and use it as input of [[_Shaders]].
