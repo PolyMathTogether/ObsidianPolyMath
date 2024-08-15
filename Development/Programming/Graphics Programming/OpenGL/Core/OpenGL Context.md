@@ -1,0 +1,2 @@
+- In shortly, it is all what **OpenGL** has. When destroying a context that means **OpenGL** will be destroyed as well.
+- More specifically, **OpenGL context** is a super large **state machine** that holds every data related to the rendering of our application. And **OpenGL context** is a **thread-local variable** and that means in a **process** there are many **threads** or current **OpenGL contexts**, each one can only have **access to its own data**. Basically, it is **isolated** to eachother, hence a context cant change any other contexts.
