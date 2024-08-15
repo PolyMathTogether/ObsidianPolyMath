@@ -1,4 +1,4 @@
-Programmers and artists normally prefer abit **realistic** on their objects. If we have create many **vertices** which have a specific color, it will cost alot performance. That is when **texture** comes in, it basically maps every point data of texture that contain a color to the **surface** via a so-called **texture coordinates**. 
+Programmers and artists normally prefer abit **realistic** on their objects. If we have to create many **vertices** which have a specific color, it will cost alot performance. That is when **texture** comes in, it basically maps every point data of texture that contain a color to the **surface** via a so-called **texture coordinates**. 
 
 ## What is texture?
 ---
@@ -17,5 +17,12 @@ As you can see, the **surface** or the **triangle** on the above image is what w
 
 ## Texture Filtering
 ---
+If one **texel** (texture pixel) covers **one or more pixels** in **surface**, texture has to **magnificated** by using **magnification filter**. Otherwise, it needs **minification filter**. 
 
+There are **two basic filtering**, one is **nearest filtering** which chooses color of **nearest textel** to the point of **pixel on surface**. This is fast but it will not give good result. The second one is **linear filtering** which chooses color by taking **average** of **texels** but this is not **inefficient** in case of applying **large texture** to **small surface**.
 
+Initially, **pixel** = **texel** and there are two cases:
+- **Texture** $\leq$ **surface** (total of texels $\leq$ total of pixels). Texture has to be **magnificated** after that, **texure** = **surface** and **texel** $\geq$ **pixel**. (**magnification filter**)
+![[magnification.png]]
+- **Texture** > **surface** (total of texels $>$ total of pixels). Texture has to be **minification** after that, **texture** = **surface** and **texel** $<$ **pixel**. (**minification filter**)
+![[minification.png]]
