@@ -1,5 +1,4 @@
-# Welcome to Greatness, Together we will become polymathic
-
+# Welcome to the Vault
 ## How to install Obsidian and use Git integration
 ### Step 1 Download Obsidian
 Simply navigate to [Obsidian download page](https://obsidian.md/download) and install the version of respective operating system.
