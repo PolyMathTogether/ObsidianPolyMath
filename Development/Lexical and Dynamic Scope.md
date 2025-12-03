@@ -47,3 +47,5 @@ The result:
 1
 2
 ```
+
+>So basically, if you use `var`, it will reference only one `i` variable, and if you use `let`, it will reference a different `i` for each iteration.
