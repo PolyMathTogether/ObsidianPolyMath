@@ -32,7 +32,7 @@ a = "Hello"; // Error, cannot assign string value to int
 Conversely in **dynamic typing**, each variable is simply one label linked to one object. Each object has its own type (e.g., in Python, we have the type `int`, `str`, ...) but the variable itself does not.The type of variable is checked in **runtime**
 
 **Dynamic typing** in **Python**:
-```python
+```
 b = 3   # variable b is bound to integer object
 isinstance(b, int)  # True
 
