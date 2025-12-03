@@ -23,8 +23,8 @@ HARDWARE ^gjZ5QOhu
 	"elements": [
 		{
 			"type": "text",
-			"version": 24,
-			"versionNonce": 871811420,
+			"version": 25,
+			"versionNonce": 774093653,
 			"isDeleted": false,
 			"id": "LQRU7kdd",
 			"fillStyle": "solid",
@@ -37,14 +37,14 @@ HARDWARE ^gjZ5QOhu
 			"y": -82.82589721679688,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 77.63996887207031,
+			"width": 68.173828125,
 			"height": 25,
 			"seed": 1338385372,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1726523712465,
+			"updated": 1764767262718,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -56,12 +56,12 @@ HARDWARE ^gjZ5QOhu
 			"containerId": null,
 			"originalText": "KERNEL",
 			"lineHeight": 1.25,
-			"baseline": 16
+			"baseline": 21
 		},
 		{
 			"type": "text",
-			"version": 42,
-			"versionNonce": 1969300060,
+			"version": 43,
+			"versionNonce": 59248763,
 			"isDeleted": false,
 			"id": "0yC3SRbD",
 			"fillStyle": "solid",
@@ -74,14 +74,14 @@ HARDWARE ^gjZ5QOhu
 			"y": -168.27064514160156,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 39.559967041015625,
+			"width": 35.302734375,
 			"height": 25,
 			"seed": 531100764,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1726523713192,
+			"updated": 1764767262719,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -93,7 +93,7 @@ HARDWARE ^gjZ5QOhu
 			"containerId": null,
 			"originalText": "APP",
 			"lineHeight": 1.25,
-			"baseline": 16
+			"baseline": 21
 		},
 		{
 			"type": "freedraw",
@@ -261,8 +261,8 @@ HARDWARE ^gjZ5QOhu
 		},
 		{
 			"type": "text",
-			"version": 42,
-			"versionNonce": 53985756,
+			"version": 43,
+			"versionNonce": 1696303285,
 			"isDeleted": false,
 			"id": "gjZ5QOhu",
 			"fillStyle": "solid",
@@ -275,14 +275,14 @@ HARDWARE ^gjZ5QOhu
 			"y": 17.955047607421875,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 108.37995910644531,
+			"width": 106.025390625,
 			"height": 25,
 			"seed": 2067120220,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1726523726670,
+			"updated": 1764767262719,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -294,7 +294,7 @@ HARDWARE ^gjZ5QOhu
 			"containerId": null,
 			"originalText": "HARDWARE",
 			"lineHeight": 1.25,
-			"baseline": 16
+			"baseline": 21
 		}
 	],
 	"appState": {
@@ -312,10 +312,10 @@ HARDWARE ^gjZ5QOhu
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 581.4503173828125,
-		"scrollY": 359.7339172363281,
+		"scrollX": 270.2386779785156,
+		"scrollY": 225.19295501708984,
 		"zoom": {
-			"value": 1
+			"value": 2
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
@@ -332,7 +332,6 @@ HARDWARE ^gjZ5QOhu
 			"outline": true
 		}
 	},
-	"prevTextMode": "parsed",
 	"files": {}
 }
 ```

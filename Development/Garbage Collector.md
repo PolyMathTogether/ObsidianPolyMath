@@ -1,0 +1,1 @@
+A **garbage collector (CG)** is a part of programming language's system that automatically manages memory that is **no longer in use** or has become **unreachable** in the program.
